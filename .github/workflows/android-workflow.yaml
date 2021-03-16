@@ -4,7 +4,7 @@ on: [push]
 jobs:
   build-and-test:
     name: Build and run tests
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout current repository in ubuntu's file system
         uses: actions/checkout@v1
